@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Ignore compiled files
+*.out
+*.o
+*.so
+
+# Ignore other unnecessary files
+*.~undo-tree~
+
+# Allow only specific files
+!.ipynb
+!.ipynb_checkpoints/
+!README.md
+!mazes/
+!training_data/
